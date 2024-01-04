@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b4a24d0e4a28423fb3249b923d7e418, type: 3}
+  m_Name: IsoRepair_ManagerPackage
+  m_EditorClassIdentifier: 
+  actionsManager: {fileID: 11400000, guid: d8b9da27f0062834384a8ec980f700e5, type: 2}
+  sceneManager: {fileID: 11400000, guid: cbeb0cba1cde2104ea50f00f8c79f11f, type: 2}
+  settingsManager: {fileID: 11400000, guid: 399bf271401a54940a2273c76fca4ae2, type: 2}
+  inventoryManager: {fileID: 11400000, guid: 7df28b3dc7322704b9d0a13837402d91, type: 2}
+  variablesManager: {fileID: 11400000, guid: 2361650fdaa68fb439049295f6497667, type: 2}
+  speechManager: {fileID: 11400000, guid: ba2c77f5328b6e948ae39cbe86b83878, type: 2}
+  cursorManager: {fileID: 11400000, guid: 9991e08a5a2b03c48b8254447c0a072e, type: 2}
+  menuManager: {fileID: 11400000, guid: d51e96e40f4412f418d9262296410108, type: 2}

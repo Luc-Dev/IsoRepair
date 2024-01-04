@@ -1,0 +1,94 @@
+{
+    "name": "InputActions",
+    "maps": [
+        {
+            "name": "Gameplay",
+            "id": "64f8a618-e6a0-43b9-a3b6-78cff1517d2a",
+            "actions": [
+                {
+                    "name": "Look",
+                    "type": "PassThrough",
+                    "id": "27ed3c31-c93a-4e7a-bed2-26bf0695fd24",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Rotate",
+                    "type": "Button",
+                    "id": "c3e419c9-8e5f-4099-b54c-1d9d4a3552b2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Scroll",
+                    "type": "PassThrough",
+                    "id": "71fd191a-a72d-4ee7-beca-82107c89c837",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Zoom",
+                    "type": "PassThrough",
+                    "id": "2278e471-4799-4037-857e-4e7ad46197ee",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "920200a3-664f-45e7-989e-8cac40cd9da3",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Look",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "35c5681f-46bf-4590-aad2-5565572fdc8a",
+                    "path": "<Mouse>/middleButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8783a2ee-0193-4624-9049-620914288a09",
+                    "path": "<Mouse>/scroll",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Scroll",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7c956a6c-e54f-4045-925d-1cc93f1e4369",
+                    "path": "<Mouse>/scroll/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Zoom",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
